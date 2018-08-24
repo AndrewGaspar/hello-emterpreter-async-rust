@@ -1,0 +1,5 @@
+[target.wasm32-unknown-emscripten]
+rustflags=["-Clink-args=-s EMTERPRETIFY=1 -s EMTERPRETIFY_ASYNC=1 --js-library em/my_lib.js"]
+
+[build]
+target = 'wasm32-unknown-emscripten'

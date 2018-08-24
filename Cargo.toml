@@ -1,0 +1,14 @@
+[package]
+name = "hello-emscripten"
+version = "0.1.0"
+authors = ["Andrew Gaspar <andrew.gaspar@outlook.com>"]
+
+[profile.dev]
+debug = false
+
+[profile.release]
+debug = false
+
+[dependencies]
+stdweb = "0.4.8"
+stdweb-derive = "0.4.0"
