@@ -11,4 +11,4 @@ debug = false
 
 [dependencies]
 stdweb = "0.4.8"
-stdweb-derive = "0.4.0"
+node-rs = "0.1.3"
